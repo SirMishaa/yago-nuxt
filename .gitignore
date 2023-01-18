@@ -1,5 +1,7 @@
 .idea
 node_modules
+.pnpm-store
+node-jiti
 *.log*
 .nuxt
 .nitro

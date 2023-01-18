@@ -1,0 +1,14 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: development
+      args:
+        - BUILDING_ENV=development
+    ports:
+      - "3000:3000"
+      # Needed for HMR
+      - "24678:24678"
+    volumes:
+      - .:/app
