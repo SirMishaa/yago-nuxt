@@ -13,5 +13,8 @@
   },
   "devDependencies": {
     "nuxt": "npm:nuxt3@latest"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6"
   }
 }
